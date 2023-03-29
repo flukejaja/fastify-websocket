@@ -1,0 +1,31 @@
+{
+  "name": "fastity-socket-io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p tsconfig.json",
+    "dev": "ts-node-dev src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "^8.2.1",
+    "@fastify/websocket": "^7.2.0",
+    "fastify-websocket": "^4.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.10",
+    "@types/socket.io": "^3.0.2",
+    "@types/socket.io-client": "^3.0.0",
+    "fastify": "^4.15.0",
+    "fastify-socket.io": "^4.0.0",
+    "nodemon": "^2.0.22",
+    "socket.io": "^4.6.1",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "tslib": "^2.5.0",
+    "typescript": "^5.0.2"
+  }
+}
